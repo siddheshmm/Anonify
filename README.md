@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ANONIFY - Advancing Anonymous Communication on Social Networks Through AI-Enabled Content Moderation
 
-## Getting Started
+## 👨‍💻 Project Team
+- **Siddhesh Mengade**  
+- **Shraddha Patil**  
+- **Parth Tate**  
+- **Pranjali Chopade**  
 
-First, run the development server:
+**Project Guide**: Prof. Snehal Jagtap  
+**Affiliation**:  
+Department of Computer Engineering,  
+Genba Sopanrao Moze College of Engineering,  
+Balewadi, Pune 411045
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📌 Project Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Anonify** is an anonymous messaging platform that empowers users to share messages without revealing their identity—while ensuring safety and responsibility through built-in AI-powered content moderation. It addresses growing concerns around misuse of anonymity on digital platforms by detecting and filtering out inappropriate, offensive, or spammy content before it's delivered to recipients.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The platform utilizes a supervised machine learning approach to identify and block harmful content, making anonymous communication more secure, respectful, and meaningful.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧠 Technologies & Methodologies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Python** for backend content moderation logic
+- **Machine Learning Model**: Logistic Regression
+- **Text Processing**: TF-IDF Vectorizer
+- **Classification Type**: Binary Classification (Safe / Inappropriate)
+- **Web Stack**: HTML, CSS, JavaScript, Next.js and Auth.js
+- **GitHub for version control & collaboration**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🚀 Key Features
+- Anonymous messaging system
+- AI-powered content moderation
+- Real-time message screening
+- Secure and privacy-focused design
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+> This project was developed as a part of our final year engineering curriculum under the guidance of Prof. Snehal Jagtap.

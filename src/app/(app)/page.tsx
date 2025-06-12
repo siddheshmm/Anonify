@@ -20,12 +20,12 @@ export default function Home() {
   return (
     <>
       {/* Main content */}
-      <main className="flex-grow flex flex-col items-center justify-center px-4 md:px-24 py-12 bg-gray-800 text-white">
+      <main className="flex-grow flex flex-col items-center justify-center px-4 md:px-24 py-12 bg-[#FEFAE0] text-black">
         <section className="text-center mb-8 md:mb-12">
-          <h1 className="text-3xl md:text-5xl font-bold">
+          <h1 className="text-3xl md:text-5xl font-bold text-[#606C38]">
             Say It Anonymously
           </h1>
-          <p className="mt-3 md:mt-4 text-base md:text-lg">
+          <p className="mt-3 md:mt-4 text-base md:text-lg text-[#606C38]">
             Anonify - Anonymity. Honesty. Freedom.
           </p>
         </section>

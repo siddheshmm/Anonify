@@ -78,7 +78,9 @@
 }
 
 @layer base {
-  nav {
+
+  nav,
+  footer {
     background: linear-gradient(90deg, #51602E, #657B3D);
     /* Aesthetic gradient */
     color: white;

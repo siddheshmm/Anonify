@@ -1,9 +1,17 @@
 import sys
 import joblib
+import os
+
+# Get the absolute path to the directory where the script is located
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Construct the absolute paths to the model and vectorizer files
+model_path = os.path.join(script_dir, 'offensive_language_model.pkl')
+vectorizer_path = os.path.join(script_dir, 'vectorizer.pkl')
 
 # Load the model and vectorizer
-model = joblib.load('D:\\tbh trials\\2\\ml\\offensive_language_model.pkl')
-vectorizer = joblib.load('D:\\tbh trials\\2\\ml\\vectorizer.pkl')
+model = joblib.load(model_path)
+vectorizer = joblib.load(vectorizer_path)
 
 # Get the input message
 message = sys.argv[1]
